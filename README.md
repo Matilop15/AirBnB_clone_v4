@@ -160,5 +160,9 @@ Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
 Second part of Airbnb: Joann Vuong
+
+Four part of Airbnb:
+Matias López - [Github](https://github.com/matilop15) / [LinkedIn](https://www.linkedin.com/in/matiaas-lopez/)
+Angel Piva - [Github](https://github.com/AngelPiva) / [LinkedIn](https://www.linkedin.com/in/angel-piva-162554222/)
 ## License
 Public Domain. No copy write protection. 
