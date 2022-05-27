@@ -4,7 +4,7 @@ $(document).ready(function(){
         if ($(this).is(':checked')) {
             dictAmenities[$(this).attr('data-id')] = $(this).attr('data-name');
         } else {
-            delete dictAmenities[$(this).attr('data-name')];
+            delete dictAmenities[$(this).attr('data-id')];
         }
         $('DIV.amenities h4').text(Object.values(dictAmenities));
     })
