@@ -7,5 +7,5 @@ $(document).ready(function(){
             delete dictAmenities[$(this).attr('data-id')];
         }
         $('DIV.amenities h4').text(Object.values(dictAmenities));
-    });
+    })
 });
