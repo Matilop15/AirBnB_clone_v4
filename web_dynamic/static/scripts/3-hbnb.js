@@ -24,8 +24,29 @@ $(document).ready(function () {
     data: '{}',
     dataType: 'json',
     contentType: 'application/json',
-    success: function () {
-      return ("hola")
+    success: function (places) {
+      places.forEach(place => {
+        const html = `<article>
+        <div class="title_box">
+          <h2>${place.name}</h2>
+          <div class="price_by_night">$${place.price_by_night}</div>
+        </div>
+        <div class="information">
+          <div class="max_guest">${place.max_guest} Gests</div>
+          <div class="number_rooms">${place.number_rooms}
+            Bedrooms</div>
+          <div class="number_bathrooms">${place.number_bathrooms}
+          </div>
+        </div>
+        <div class="user">
+
+        </div>
+        <div class="description">
+          ${place.description}
+        </div>
+      </article>`;
+        $('.places').append(html)
+      });
     }
-  })
+  });
 });
