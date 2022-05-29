@@ -9,7 +9,7 @@ $(document).ready(function () {
     $('DIV.amenities h4').text(Object.values(dictAmenities).join(', '));
   });
 
-  const url = 'http://0.0.0.0:5001/api/v1/places_search/';
+  const url = 'http://0.0.0.0:5001/api/v1/status/';
   $.get(url, function (info) {
     if (info.status === 'OK') {
       $('#api_status').addClass('available');
@@ -20,7 +20,7 @@ $(document).ready(function () {
 $('button').click(() => {
   $.ajax({
     type: 'POST',
-    url: 'http://0.0.0Ã.0:5001/api/v1/places_search/',
+    url: 'http://0.0.0Ãƒ.0:5001/api/v1/places_search/',
     data: '{}',
     dataType: 'json',
     contentType: 'application/json',
