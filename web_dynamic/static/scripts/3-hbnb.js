@@ -9,7 +9,7 @@ $(document).ready(function () {
     $('DIV.amenities h4').text(Object.values(dictAmenities).join(', '));
   });
 
-  const url = 'http://127.0.0.1:5001/api/v1/places_search/';
+  const url = 'http://127.0.0.1:5001/api/v1/status/';
   $.get(url, function (info) {
     if (info.status === 'OK') {
       $('#api_status').addClass('available');
